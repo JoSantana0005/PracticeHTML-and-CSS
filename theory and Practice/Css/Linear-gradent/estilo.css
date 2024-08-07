@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+.linea-gradiente__center{
+    margin: 79px;
+    padding: 30px;
+    width: 700px;
+    height: 400px;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    background-color: #ffaa;
+}
+.linea-gradiente__center__h1{
+    color: blue;
+    text-align: center;
+    text-shadow: 2px 2px 3px #ddaa00;
+    text-decoration: overline underline;
+    border: 2px solid black;
+    border-top-left-radius: 12%;
+    border-bottom-right-radius: 12%;
+    background: linear-gradient(#f00,transparent);
+}

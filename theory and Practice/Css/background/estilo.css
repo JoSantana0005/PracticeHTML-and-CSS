@@ -1,0 +1,23 @@
+body{
+    background-color: white;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.Background__center{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+    margin: 50px;
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #f349;
+    background-image: url("https://i.pinimg.com/236x/95/27/49/9527498ff6d78f39ff4c8fe366f6f0c6.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: none;
+}

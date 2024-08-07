@@ -1,0 +1,33 @@
+.Main__page{
+    background-color: black;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: lowercase;
+    width: 700px;/*Ancho del backgorund del contenedor */
+    height: 400px;/*Anchop del backgorund del contenedor */
+    
+}
+.Main__page__Tilte{
+    color:blue;
+    font-size: 1em;
+    background-color: brown;
+    width: 500px; /*Anchop del backgorund del titulo */
+    height: 100px; /*alto del backgorund del titulo */
+}
+
+.Form__login{
+    width: 500px;
+    margin-top: 40px;
+    margin-left: 40px;
+    height: 300px;
+}
+#Form__login__campo{
+    width: 80%; /*Este witdh toma el valor del 
+    ancho del contenedor y lo pone dependiendo el ancho */
+    box-sizing: border-box;
+    border: 2px solid blue;
+    letter-spacing: 1px;
+    line-height: 12px;
+    height: 40%;
+}

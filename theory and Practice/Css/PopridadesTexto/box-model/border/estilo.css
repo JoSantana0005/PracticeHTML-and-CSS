@@ -1,0 +1,26 @@
+.Main__center{
+    background-color: black;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    border: 4px solid blue;
+    
+}
+.Main__center__title{
+    color: blue;
+    letter-spacing: 2px;
+    font-size: 1em;
+    border-width: 3px; /*Propiedades de los bordes*/
+    border-color: blue; /*Propiedades de los bordes*/
+    border-style: groove; /*Propiedades de los bordes*/
+    border-radius: 8%; /*Propiedades de los bordes*/
+    border-top-left-radius: 8%; /*Propiedades de los bordes*/
+    border-top-right-radius: 30px; /*Propiedades de los bordes*/
+    border-bottom-left-radius: 30px; /*Propiedades de los bordes*/
+    
+}

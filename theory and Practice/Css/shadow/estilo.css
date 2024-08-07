@@ -1,0 +1,61 @@
+body{
+    background-color: #ddaa;
+
+
+}
+.Main__center{
+    border: 2px solid #005;
+    width: 600px;
+    height: 400px;
+    padding: 40px;
+    font-style: italic;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    margin: auto;
+    margin-top: 100px;
+    box-sizing: border-box;
+    box-shadow: 5px 0px 10px #000;
+}
+.Main__center__Title{
+    text-align: center;
+    color: #005;
+    text-shadow: 0px 0px 3px #080;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+.Main__center__paragraphyy{
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 0.5px;
+
+}
+.Imagen__Goku{
+    width: 500px;
+    height: 550px;
+    padding: 40px;
+    margin: auto;
+    margin-top: 20px;
+    box-sizing: content-box;
+    box-shadow: -5px 0px 10px #000;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    border: 2px solid #005;
+}
+#Goku{
+    width: 290px;
+    height: 400px;
+    filter: drop-shadow(0 0 5px #f40);
+    border-radius: 30%;
+    border: 3px solid #f10;
+}
+.Imagen__Goku__paragraphy{
+    letter-spacing: 1px;
+    font-size: 1.2em;;
+    text-shadow: 0px 0px 10px #f60;
+    text-align: justify;
+}
