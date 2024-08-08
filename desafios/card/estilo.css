@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    font-size: 24px;
+    font-family: sans-serif;
+    background-color: #000;
+}
+.Main__center{
+    width: 700px;
+    height: 840px;
+    margin: auto;
+    padding: 50px 20px;
+    background-color: #ddaa;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 22px #ff9;
+    color: #fff;
+    margin-top: 240px;
+    justify-content: center;
+}
+#Main__center__Imagen{
+    width: 300px;
+    filter: drop-shadow(0 0 10px #fff);
+    border-radius: 30%;
+}
+.Main__Title{
+    font-size: 1.2em;
+    text-shadow: 2px 0px 3px #1df;
+    margin: 30px 0 30px 0;
+}
+ul{
+    list-style: none;
+    padding: 0px 15px;
+    background: transparent;
+    align-items: center;
+    margin-top: 30px;
+    border: 2px solid transparent;
+}
+.Main__ContenidoUl{
+    display: inline-block;
+    margin: 0 3px 0 3px;
+    padding: 2px;
+    font-size: 0.9em;
+}
+.Main__center__paragraphy{
+    margin-top: 10px;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+}
+.Main__center__input{
+    margin: 10px;
+    padding: 10px 12px;
+    width: 150px;
+    color: #006;
+    background: linear-gradient(to right, #ddaa, #ddff);
+    margin-right: 15%;
+    margin-top: 10px;
+    justify-content: center;
+    border-radius: 12%;
+    box-shadow: 0px 0px 12px #000;
+}
+.Main__center__link{
+    background: linear-gradient(to right,#ddaa,#ddff);
+    width: 150px;
+    padding: 10px 12px;
+    margin: 10px;
+    color: #006;
+    border-radius: 12%;
+    box-shadow: 0px 0px 12px #000;
+    margin-top: 10px;
+    justify-content: center;
+}
+#Instagram__Imagen{
+    height: 80px;
+    width: 80px;
+    filter: drop-shadow(0 0 10px #fff);
+    filter: brightness(1,1);
+    mix-blend-mode: darken;
+}
+#Whatsapps_imagen{
+    height: 80px;
+    width: 80px;
+    filter: drop-shadow(0 0 10px #fff);
+    filter: brightness(1,1);
+    mix-blend-mode: darken;
+}
+#X__imagen{
+    height: 80px;
+    width: 80px;
+    filter: drop-shadow(0 0 10px #fff);
+    filter: brightness(1,1);
+    mix-blend-mode: darken;
+}
+#Git__imagen{
+    height: 80px;
+    width: 80px;
+    filter: drop-shadow(0 0 10px #fff);
+    filter: brightness(1,1);
+    mix-blend-mode: darken;
+}
