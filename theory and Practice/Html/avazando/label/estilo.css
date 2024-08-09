@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    background-color: #100;
+    max-width: 600px;
+    margin: auto;
+}
+.Form__page{
+    width: 700px;
+    height: 800px;
+    margin: auto;
+    background: #000;
+    text-align: center;
+    padding: 40px;
+    margin-top: 40px;
+    font-size: 24px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px 1px #ffdf00;
+    border-radius: 20px;
+}
+.Form__page__Title{
+    color: #ffe;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0 0 2px #002;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+.Form__page__div{
+    margin: 12px;
+    padding: 5px;
+}
+.Form__page__input{
+    width: 370px;
+    color: #ffe;
+    border: none;
+    border-top: 2px solid #fffd00;
+    border-left: 2px solid #ffdd00;
+    padding: 6px 9px;
+    background: transparent;
+    box-sizing: border-box;
+    padding-top: 12px;
+    
+}
+.Form__page__textarea{
+    background: transparent;
+    border: none;
+    border: 2px solid #ffdd01;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 12px;
+    font-size: 0.6em;
+    font-weight: 300;
+    padding-left: 12px;
+    box-shadow: 0 0 3px #ffd;
+    font-family: sans-serif;
+    resize: vertical; /*Prpiedades del textArea*/
+    min-height: 100px; /*Prpiedades del textArea*/
+    max-height: 400px; /*Prpiedades del textArea*/
+}
+.Form__page__button{
+    width: 200px;
+    letter-spacing: 1px;
+    border: none;
+    padding: 7px 12px;
+    color: #ffd;
+    background: transparent;
+    border-top: 2px solid #ffdd0f;
+    border-right: 2px solid #ffdd0f;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 3px #f00;
+}
+.Form__page__label{
+    color: #ffd;
+    text-align: left;
+    font-size: 0.8em;
+    font-weight: 100;
+}

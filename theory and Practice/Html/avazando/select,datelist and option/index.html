@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>select,datelist,option</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <main class="Main__center">
+        <form class="Form__page">
+            <h2 class="Form__page__Title">Formulario</h2>
+            <label class="Form__page__label">Nombre</label>
+            <div class="Form__page__div">
+                <input type="text" placeholder="Nombre" class="Form__page__input">
+            </div>
+            <label class="Form__page__label">Gmail</label>
+            <div class="Form__page__div">
+                <input type="email" placeholder="email" class="Form__page__input">
+            </div>
+            <label class="Form__page__label">Lista Despegable</label>
+            <!--Esto es un select-->
+            <div class="Form__page__div">
+                <select class="Form__page__ListaD">
+                    <!--Esto es un option-->
+                    <option value="empresa">empresa</option>
+                    <option value="condicion">condicion</option>
+                    <option value="beneficio">beneficio</option>
+                </select>
+            </div>
+            <label class="Form__page__label">datalist</label>
+                <div class="Form__page__div">
+                    <!--Esto es un datalist-->
+                    <input list="Referente" class="Form__page__input">
+                    <datalist id="Referente"class="Form__page__ListaD">
+                        <!--Esto es un option-->
+                        <option value="empresa">Jose</option>
+                        <option value="condicion">condicion</option>
+                        <option value="beneficio">beneficio</option>
+                    </datalist>
+                </div>
+        </form>
+    </main>
+</body>
+</html>

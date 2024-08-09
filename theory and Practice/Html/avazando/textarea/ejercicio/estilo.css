@@ -1,0 +1,87 @@
+body{
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0;
+    background-color: #000;
+}
+.Header__page{
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 25px;
+    text-align: center;
+    background-color: #aad6;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px #fff;
+}
+.Header__page__Title{
+    color: #ffdd;
+    text-shadow: 0px 0px 4px #f06;
+    margin-top: 80px;
+    padding: 3px;
+    letter-spacing: 1px;
+    font-size: 1.9em;
+}
+.Header__page__Paragraphy{
+    padding: 3px 10px;
+    margin-top: 60px;
+    color: #fff;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-align: justify;
+    text-shadow: 0px 0px 3px #f04;
+    font-size: 0.9em;
+}
+.Form__page{
+    width: 700px;
+    height: 800px;
+    margin: auto;
+    margin-top: 120px;
+    padding: 20px;
+    background-color: #aad6;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 0 30px #fff;
+}
+.Form__page__Title{
+    font-size: 1.9em;
+    color: #ffdd;
+    text-shadow: 0 0 3px #f06;
+    letter-spacing: 2px;
+}
+.Form__page__input{
+    margin: 20px;
+    padding: 0 4px 0 4px;
+    margin-bottom: 4px;
+    padding: 6px 9px;
+    background-color: #ffdd;
+    border: none;
+    border-top: 3px solid #000;
+    border-right: 3px solid #000;
+    width: 390px;
+    color: #006;
+    text-transform: capitalize;
+}
+#Form__page__textarea{
+    margin-top: 20px;
+    background-color: #ffdd;
+    padding: 12px 0 12px 0;
+    color: #006;
+    font-size: 0.7em;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 5%;
+    text-align: justify;
+    border-top: 4px solid #000;
+    border-right: 4px solid #000;
+}
+.Form__page__submit{
+    letter-spacing: 2px;
+    width: 150px;
+    background: linear-gradient(to right, #ffdd, #fdd);
+    margin-top: 30px;
+    box-shadow: 0 0 10px #000;
+}   

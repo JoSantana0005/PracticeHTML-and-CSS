@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="../../j-01-1.png" type="imagen/png">
+</head>
+<body>
+    <form class="Form__page">
+        <h1 class="Form__page__Title">Formulario de la empresa</h1>
+        <fieldset class="Form__page__Field">
+            <legend id="Legend">Informacion de Basica</legend>
+            <div class="Form__page__div">
+                <input type="text" placeholder="Nombre" class="Form__page__input" required>
+            </div>
+            <div class="Form__page__div">
+                <input type="text" placeholder="Apellido" class="Form__page__input" required>
+            </div>
+            <div class="Form__page__div">
+                <input type="text" placeholder="Cedula" class="Form__page__input" required maxlength="8">
+            </div>
+            <div class="Form__page__div">
+                <input type="email" placeholder="email" class="Form__page__input" maxlength="24" required>
+            </div>
+        </fieldset>
+        <fieldset class="Form__page__Field">
+            <legend id="Legend">Información de contacto</legend>
+            <div class="Form__page__div">
+                <input type="text" placeholder="Telefono" class="Form__page__input" maxlength="11">
+            </div>
+            <div class="Form__page__div">
+                <input list="Date" class="Form__page__input" placeholder="Ingrese una opcion" required>
+                <datalist id="Date">
+                    <option Value="Mc'Donaldns">Me recomendo esta empresa</option>
+                    <option value="Real Madrid">Me recomendo este equipo</option>
+                    <option value="Jose">Me recomendo esta persona</option>
+                    <option value="Mora">Me recomendo este cantante</option>
+                </datalist>
+            </div>
+            <div class="Form__page__div">
+                <select class="Form__page__select" required>
+                    <option value="Ingeniero">Ingeniero</option>
+                    <option value="Mercadeo">Mercadeo</option>
+                    <option value="Medico">Medico</option>
+                    <option value="Odontologo">Odontologo</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset class="Form__page__Field">
+            <legend id="Legend">Comentario</legend>
+            <textarea class="Form__page__textarea" rows="15" cols="30" required placeholder="Ingrese su comentario"></textarea>
+        </fieldset>
+        <div class="Form__page__div">
+            <input type="submit" value="Enviar" class="Form__page__input Form__page__submit">
+            <input type="button" value="Eliminar" class="Form__page__input Form__page__submit">
+        </div>
+    </form>
+</body>
+</html>
