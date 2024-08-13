@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #298, #325);
+}
+.Form__page{
+    width: 800px;
+    margin: auto;
+    padding: 25px;
+    margin-top: 50px;
+    background-color: #005;
+    box-sizing: border-box;
+    box-shadow: 0 0 40px #000;
+    font-size: 16px;
+    text-align: center;
+}
+.Form__page__file{
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 20px;
+    border-color: #ffdd;
+}
+#Leyenda{
+    text-align: left;
+    color: #fff;
+    border: 2px solid #ffdd;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 1.5em;
+    letter-spacing: 1.5px;
+}
+#Leyenda::first-letter{
+    color: #ff3;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+.Form__page__div{
+    margin: 5px;
+    padding: 10px;
+}
+.Form__page__label{
+    color: #ffd;
+    margin-right: 0px;
+    letter-spacing: 1px;
+    margin: 5px 0 5px 0;
+
+}
+.Form__page__input{
+    width: 300px;
+    padding: 9px 15px;
+    color: #ffdd00;
+    border: none;
+    border-bottom: 3px solid #666;
+    border-right: 3px solid #666;
+    border-radius: 12px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px #ffdd;
+    background-color: #000;
+}
+.Form__page__input::placeholder{
+    color: #ffdd00;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+option{
+    color: #ffd;
+}
+#email:invalid{
+    color: #f00;
+}
+#email:valid{
+    color: #0f0
+}
+.form__page__textarea{
+    resize: vertical;
+    min-height: 100px;
+    max-height: 400px;
+    width: 490px;
+}

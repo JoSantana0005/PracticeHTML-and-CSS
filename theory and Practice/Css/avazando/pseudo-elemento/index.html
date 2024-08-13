@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-elemenos</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <form class="Form__page">
+        <fieldset class="Form__page__file">
+            <legend id="Leyenda">Informacion de contacto</legend>
+            <label class="Form__page__label">Nombre</label>
+            <div class="Form__page__div">
+                <input type="text" placeholder="Nombre" class="Form__page__input">
+            </div>
+            <label class="Form__page__label">Apellido</label>
+            <div class="Form__page__div">
+                <input type="text" placeholder="Apellido" class="Form__page__input">
+            </div>
+            <label class="Form__page__label">Cedula</label>
+            <div class="Form__page__div">
+                <input type="text" placeholder="Cedula" class="Form__page__input">
+            </div>
+        </fieldset>
+        <fieldset class="Form__page__file">
+            <legend id="Leyenda">Informacion del cliente</legend>
+            <label class="Form__page__label">Telefono</label>
+            <div class="Form__page__div">
+                <input type="text" placeholder="Telefono" class="Form__page__input">
+            </div>
+            <label class="Form__page__label">Especilidad</label>
+            <div class="Form__page__div">
+                <select class="Form__page__input">
+                    <option value="Ingeniero">Ingeniero</option>
+                    <option value="Mercadeo">Mercadeo</option>
+                    <option value="Arquitecto">Arquitecto</option>
+                    <option value="Tecnico">Tecnico</option>
+                </select>
+            </div>
+            <label class="Form__page__label">Correo</label>
+            <div class="Form__page__div">
+                <input type="email" placeholder="Correo" class="Form__page__input" id="email">
+            </div>
+        </fieldset>
+        <fieldset class="Form__page__file">
+            <legend id="Leyenda">Comentario</legend>
+            <div class="Form__page__div">
+                <textarea rows="20" cols="40" class="Form__page__input form__page__textarea" placeholder="Ingrese un comentario"></textarea>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

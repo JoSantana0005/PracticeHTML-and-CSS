@@ -1,0 +1,84 @@
+
+body{
+    margin: 0;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+.Main__center{
+    width: 75%;
+    padding: 15px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #027;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 0 30px #000;
+}
+.Main__center__Title{
+    letter-spacing: 2px;
+    color: #ffd7f2;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 5px #001;
+    padding: 0 3px 10px 3px;
+}
+.Main__center__list{
+    list-style: none;
+    display: flex;
+    margin: 30px 0px;
+    border: none;
+    border-top: 2px solid #666;
+    border-left: 2px solid #666;
+    border-bottom: 2px solid #666;
+    padding: 5px;
+}
+#Main__center__cont{
+    margin: 40px;
+    padding: 6px 9px;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #ffd7;
+    text-shadow: 1px 2px 5px #005;
+}
+
+
+#line{
+    border-color: #666;
+    margin: 20px;
+}
+.Section__ingredientes{
+    width: 700px;
+    margin: auto;
+    margin: 15px;
+    margin-top: 70px;
+    background-color: #027;
+    padding: 30px 20px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 0 30px #000;
+}
+.section__paragraphy{
+    color: #ffdd;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    margin-bottom: 50px;
+    line-height: 30px;
+
+}
+/*Selector por atributo*/
+#Imagen__section[src="https://i.pinimg.com/236x/95/27/49/9527498ff6d78f39ff4c8fe366f6f0c6.jpg"]{
+    width: 500px;
+    filter: brightness(1,1);
+    mix-blend-mode: luminosity;
+    border-radius: 120px;
+    filter: drop-shadow(0px 0px 30px #fd0);
+}
+.Main__page{
+    display: flex;
+    padding: 10px 50px;
+    flex-direction: row;
+}

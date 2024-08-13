@@ -1,0 +1,41 @@
+.title{
+    color: #05c;
+    margin: 30px;
+    padding: 10px;
+}
+/*Primer Pesudo-clase Hover*/
+.title:hover{
+    color: #2e0;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+.Title{
+    color: #498;
+    margin: 30px;
+    padding: 15px;
+}
+/*Segunda pseudo-clase Active*/
+.Title:active{
+    background-color: #ffdd00;
+    color: #000;
+
+}
+/*selecciona al primer hijo*/
+li:first-child{
+    color: #fd2;
+    background-color: #298;
+}
+/*selecciona al ultimo hijo*/
+li:last-child{
+    color: #298;
+    background-color: #fd2;
+}
+ul li:not(:first-child){
+    color: #876;
+    background-color: #256;
+}
+/*Pseudo-clase cuando un enlace ya fue visitado*/
+a:visited{
+    color: #0e1;
+}
