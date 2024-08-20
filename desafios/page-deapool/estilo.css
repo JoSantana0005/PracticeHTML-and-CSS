@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    font-family: "New Amsterdam";
+    
+    background: url("https://i.pinimg.com/736x/28/8f/e2/288fe20ed45681c7d9601948ce3b7445.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Header{
+    margin: 20px 70px;
+    margin-top: 25px;
+    display: flex;
+    padding: 5px;
+    font-size: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 40px #000;
+    
+}
+.Header__Title{
+    font-size: 2.4em;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 0;
+    margin-top: 23px;
+    margin-left: 15px;
+    padding: 18px 20px;
+    color: #ffdd;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 0 0 30px #000;
+}
+.Navigator__bar{
+    margin: 5px;
+    padding: 18px;
+    letter-spacing: 2.5px;
+}
+.List{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 85px;
+    padding: 10px;
+}
+.List__cont{
+    font-size: 1.5em;
+}
+.Link{
+    color: #ffdd;
+    text-decoration: none;
+    border: 2px solid #ffdd;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin-left: 12px;
+    transition: background 1s 0.1s, color 1s 0.1s;
+    text-align: center;
+}
+.Link:hover{
+    background: #04f;
+    color: #ddaa;
+}
+.Main{
+    width: 700px;
+    position: relative;
+    left: 880px;
+    top: 30px;
+    text-align: center;
+    background: transparent;
+    border-left: 1px solid #666;
+    padding: 35px;
+    border-bottom:1px solid #666;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.Main__Title{
+    font-size: 3.5em;
+    color: #ffda;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding-left: 18px;
+    text-shadow: 0 0 5px #000;
+}
+.Main__paragraphy{
+    font-size: 1.3em;
+    text-align: justify;
+    margin-bottom: 20px;
+    padding-left: 18px;
+    color: #ffed;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-wrap: pretty;
+}
+.Main__div{
+    margin: 15px;
+    padding: 30px;
+    margin-left: 50px;
+    padding-top: 35px;
+}
+.Link__Main__Try{
+    margin: 40px;
+    font-size: 1.3em;
+    padding: 5px 30px;
+    transition: background 1s 0.1s, padding 1s 0.1s, color 1s 0.1s;
+}
+.Link__main__watch{
+    margin: 50px;
+    font-size: 1.3em;
+    padding: 5px 30px;
+    background-color: #046;
+    transition: background 1s 0.1s, padding 1s 0.1s, color 1s 0.1s;
+}
+.Link__Main__Try:hover{
+    background-color: #07f;
+    color: #fff;
+    padding: 10px 45px;
+}
+.Link__main__watch:hover{
+    background-color: #07f;
+    padding: 10px 45px;
+    color: #fff;
+}
