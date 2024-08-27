@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: #000;
+}
+.Header{
+    font-size: 14px;
+    padding: 20px;
+    margin: 0 20px;
+    margin-top: 200px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.Title{
+    color: #ffdd;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: capitalize;
+    text-shadow: 0 0 2px #000;
+    font-size: 3.2em;
+    letter-spacing: 2.5px;
+    text-wrap: pretty;
+    margin-bottom: 20px;
+}
+.Navigator__bar{
+    margin: 20px;
+    padding: 10px;
+}
+.List{
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 5px 10px;
+}
+.List__cont{
+    margin-top: 50px;
+}
+.Link{
+    text-decoration: none;
+    transition: padding 400ms 0.1s, margin 400ms 0.1s;
+}
+.Imagen__Link{
+    width: 150px;
+    border-radius: 40%;
+    outline: 2px solid #04f;
+    outline-offset: 3px;
+    padding: 8px;
+    box-sizing: border-box;
+    box-shadow: 0 0 30px #05f;
+    transition: padding 400ms 0.1s, outline 400ms 0.1s,
+    box-shadow 400ms 0.1s;
+}
+.Link:hover{
+    padding: 30px;
+    margin: 40px;
+}
+.Imagen__Link:hover{
+    padding: 30px;
+    outline: 2px solid #ffdd00;
+    box-shadow: 0 0 30px #ffdd00;
+}
