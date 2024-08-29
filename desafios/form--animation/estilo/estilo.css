@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    font-family: "Ubuntu";
+    background: linear-gradient(to right, #CFC5D3, #83459E );
+}
+.Main{
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 230px;
+    box-sizing: border-box;
+    box-shadow: 0 0 40px #000;
+    text-align: center;
+}
+.Form__page{
+    background-color: #CFC5D3;
+    padding: 45px;
+    box-sizing: border-box;
+    font-size: 14px;
+    
+}
+.Title{
+    font-size: 3em;
+    letter-spacing: 2.5px;
+    margin: 0;
+    padding: 15px;
+    text-shadow: 0 0 2px #000;
+    overflow: auto;
+    white-space: nowrap;
+    font-weight: 700;
+}
+.List{
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+}
+.Imagen__page{
+    outline: 2px solid #000;
+    outline-offset: 3px;
+    width: 65px;
+    border-radius: 20px;
+    transition: padding 500ms 0.1s, outline 500ms 0.1s,
+    box-shadow 500ms 0.1s;
+}
+.Imagen__page:hover{
+    padding: 0px 10px;
+    outline: 2px solid #ffdd01;
+    box-shadow: 0 0 20px #000;
+}
+.word-important{
+    display: block;
+    font-size: 1.6em;
+    letter-spacing: 2px;
+    padding: 25px;
+    text-shadow: 0 0 3px #ffdd;
+    font-weight: 900;
+}
+.Fieldset__page{
+    border: 2px solid #000;
+    margin: 0;
+    border-radius: 20px;
+    padding: 15px 5px;
+    text-align: left;
+}
+.legend{
+    font-size: 2em;
+    border: none;
+    letter-spacing: 3px;
+    text-shadow: 0 0 5px #e04d;
+    font-weight: 800;
+    padding: 0 25px;
+}
+.Separator{
+    margin: 5px;
+    padding: 10px;
+    text-align: left;
+}
+.input__page{
+    width: 640px;
+    padding: 20px 18px;
+    border: none;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    box-sizing: border-box;
+    border-radius: 35px;
+    font-weight: 600;
+    background-color: #ffe0;
+    transition: background 500ms 0.1s, border 500ms 0.1s, padding 500ms 0.1s;
+    color: #000;
+    font-size: 1.7em;
+}
+.input__page::placeholder{
+    color: #000;
+    letter-spacing: 2.5px;
+}
+.input__page:hover{
+    background: #fdfd;
+    border: 2px solid #005;
+    outline: none;
+    padding: 25px 10px;
+}
+.button__sign__in{
+    margin: 0;
+    padding: 15px 50px;
+    color: #fff;
+    background-color: #300171;
+    box-sizing: border-box;
+    box-shadow: 0 0 40px #000;
+    font-size: 1.7em;
+    border-radius: 35px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: padding 500ms 0.1s, color 500ms 0.1s, background-color 500ms 0.1s;
+}
+.button__sign__in:hover{
+    padding: 20px 65px;
+    color: #000010;
+    background-color: #fdfd;
+}
