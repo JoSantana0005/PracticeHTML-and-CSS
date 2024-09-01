@@ -4,13 +4,17 @@ body{
     background: linear-gradient(to right, #CFC5D3, #83459E );
 }
 .Main{
-    width: 800px;
+    width: 1630px;
     margin: auto;
-    padding: 20px;
+    padding: 20px 30px;
     margin-top: 230px;
+    margin-left: 550px;
     box-sizing: border-box;
-    box-shadow: 0 0 40px #000;
     text-align: center;
+    border-radius: 50px;
+    box-shadow: 0 0 40px #000;
+    display: flex;
+    gap: 5px;
 }
 .Form__page{
     background-color: #CFC5D3;
@@ -117,4 +121,48 @@ body{
     padding: 20px 65px;
     color: #000010;
     background-color: #fdfd;
+}
+.Container--friends{
+    width: 800px;
+    background-color: #300171;
+    padding: 45px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding-top: 260px;
+}
+.Title__Container{
+    font-size: 4em;
+    color: #ffdd;
+    text-transform: capitalize;
+    font-weight: 800;
+    text-shadow: 0 0 10px #ff32;
+    text-wrap: pretty;
+    padding: 5px 15px;
+}
+.Paragraphy{
+    font-size: 1.7em;
+    padding: 15px;
+    color: #ffdd;
+    letter-spacing: 0.5px;
+    text-wrap: pretty;
+    white-space: nowrap;
+}
+.Paragraphy::first-letter{
+    font-size: 1.4em;
+    color: #592;
+    text-transform: uppercase;
+}
+.button__sign__up{
+    margin-top: 20px;
+    color: #ffdd;
+    letter-spacing: 1.5px;
+    border-radius: 0;
+    border: 2px solid #fff;
+}
+.button__sign__up:hover{
+    background-color: #ffdd;
+    color: #000;
+    padding: 20px 65px;
 }
