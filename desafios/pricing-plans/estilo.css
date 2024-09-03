@@ -1,4 +1,154 @@
 body{
     margin: 0;
     font-family: "New Word";
+    background: linear-gradient(to right,#8E8CBB ,#7C55EC);
+}
+.Container{
+    width: 70vw;
+    padding: 35px;
+    box-sizing: border-box;
+    background-color: #ffdd;
+    margin: 15px auto;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Word--important{
+    font-size: 1em;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    padding: 5px;
+    text-shadow: 0 0 4px #fdfd;
+}
+.Title{
+    font-size: 2.4em;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    margin: 0;
+    padding: 10px;
+    text-shadow: 0 0 2px #fdfdff;
+
+}
+.Word__Title{
+    text-decoration: underline #04f;
+    color: #04a;
+}
+.word{
+    color: #456;
+    padding: 5px;
+    letter-spacing: 2px;
+    text-wrap: pretty;
+    font-weight: 300;
+}
+.word__import{
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 5px;
+    text-wrap: pretty;
+}
+.Sections__page{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 5px;
+}
+.article__page{
+    background-color: #fff;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    box-shadow: 0 0 35px #0009;
+    text-align: justify;
+    font-size: 14px;
+}
+.article__page:nth-child(1){
+    transition: background-color 500ms 0.1s, color 500ms 0.1s;
+}
+.article__page:nth-child(1):hover{
+    background-color: #6B16A9;
+    color: #fdfdd1;
+    cursor: pointer;
+}
+.article__page:nth-child(2){
+    transition: background-color 500ms 0.1s, color 500ms 0.1s;
+}
+.article__page:nth-child(2):hover{
+    background-color: #6B16A9 ;
+    color: #fdfdd1;
+    cursor: pointer;
+}
+.article__page:nth-child(3){
+    transition: background-color 500ms 0.1s, color 500ms 0.1s;
+}
+.article__page:nth-child(3):hover{
+    background-color: #6B16A9 ;
+    color: #fdfdd1;
+    cursor: pointer;
+}
+.Word__page{
+    margin: 0;
+    font-size: 0.9em;
+    letter-spacing: 1.5px;
+}
+.Title--article{
+    margin: 0;
+    padding: 10px 0;
+    font-weight: 400;
+    text-shadow: 0 0 3px #031;
+    text-overflow: ellipsis;
+}
+.Title--article::first-letter{
+    font-size: 1.3em;
+    color: #003;
+    font-weight: 600;
+}
+.word__page{
+    font-size: 1.2em;
+    letter-spacing: 1.5px;
+    margin-top: 20px;
+    padding: 5px 0px;
+    color: #456;
+    font-weight: 800;
+}
+.word__month{
+    color: #000;
+    font-size: 1.4em;
+}
+.List{
+    padding: 5px 5px;
+    margin: 0;
+}
+.List__cont{
+    color: #666f66;
+    font-weight: 500;
+    list-style: circle;
+}
+.Button--opc{
+    margin-top: 35px;
+    padding: 12px 25px;
+    color: #029;
+    border: none;
+    border-radius: 40px;
+    border-bottom: 2px solid #000;
+    font-size: 1.1em;
+    transition: background-color 500ms 0.1s, box-shadow 500ms 0.1s,
+    color 500ms 0.1s, padding 500ms 0.1s;
+}
+.Button--opc--second{
+    background-color: #fa7;
+    color: #000;
+}
+.Button--opc--three{
+    background-color: #6B16A9;
+    color: #fdfdff;
+}
+.Button--opc:hover{
+    background-color: #fdfdff;
+    color: #000;
+    box-shadow: 0 0 35px #000;
+    padding: 10px 25px;
 }
