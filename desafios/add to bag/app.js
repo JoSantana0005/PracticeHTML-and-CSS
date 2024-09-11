@@ -20,12 +20,23 @@ imagenes.forEach(imagen =>{
         imagen_main.src = `${index}.jpeg`
     })
 })
-
+let lista = [
+    {
+        "Talla": null,
+        "Camisa": "Polo"
+    }
+]
 let submit = document.querySelector('.Buttom');
 submit.addEventListener('click',()=>{
     if(currentlySelectedButton){
         alert("Se envio la solicitud")
+        lista.forEach(element =>{
+            if(element.Talla == null){
+                element.Talla = document.querySelector('.opcion button').textContent
+            }
+        console.log(lista)
+        })
     }else{
-        alert("No ha elegido la talla de la camisa")
+        alert("Tiene que elegir la talla de la camisa")
     }
 })
