@@ -10,3 +10,22 @@ buttons.forEach(button => {
     currentlySelectedButton = button; 
   });
 });
+let index = 0
+let imagenes = Array.from(document.querySelectorAll('.Imagen img'))
+let imagen_main = document.querySelector('.Imagen__main img')
+imagenes.forEach(imagen =>{
+    imagen.addEventListener('click',(e)=>{
+        index = e.target.id;
+        console.log(index)
+        imagen_main.src = `${index}.jpeg`
+    })
+})
+
+let submit = document.querySelector('.Buttom');
+submit.addEventListener('click',()=>{
+    if(currentlySelectedButton){
+        alert("Se envio la solicitud")
+    }else{
+        alert("No ha elegido la talla de la camisa")
+    }
+})

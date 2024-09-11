@@ -10,7 +10,9 @@ body{
 header{
     width: 85%;
     height: 415px;
-    border: 2px solid #000;
+    box-shadow: 0 0 15px #000;
+    border-radius: 30px;
+    background-color: #fdfdfd;
     display: flex;
     justify-content: center;
     margin: auto;
