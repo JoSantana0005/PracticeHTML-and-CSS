@@ -9,12 +9,12 @@ body{
 }
 header{
     width: 85%;
-    height: 350px;
+    height: 415px;
     border: 2px solid #000;
     display: flex;
     justify-content: center;
     margin: auto;
-    margin-top: 120px;
+    margin-top: 90px;
     padding: 15px;
     gap: 22px;
 }
@@ -22,6 +22,7 @@ header .Imagen{
     position: relative;
     padding: 12px;
     top: 5px;
+    left: 10px;
     width: 15%;
     height: 50px;
     height: auto;
@@ -47,11 +48,11 @@ header .Imagen img:hover{
 }
 header .Imagen__main{
     padding: 0;
-    margin-top: 12px;
+    margin-top: 5px;
     position: relative;
-    left: -55px;
-    width: 300px;
-    height: 270px;
+    left: -35px;
+    width: 500px;
+    height: 370px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,8 +72,8 @@ header .Imagen__main img:hover{
 }
 header .Content{
     width: 100%;
-    height: 300px;
-    border: 1px solid #000;
+    height: 320px;
+    margin-top: 3px;
     display: flex;
     flex-flow: column wrap;
     font-size: 12px;
@@ -127,21 +128,44 @@ header .Content .opcion {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 15px;
+    gap: 25px;
     padding: 4px;
 }
 header .Content .opcion button {
     font-size: 1.6em;
     color: #000;
+    background-color: none;
+    border: none;
+    padding: 5px 12px;
+    outline: none;
     text-shadow: 0 0 2px #000;
     transition: .1s linear;
     cursor: pointer;
-    background-color: none;
-    border: none;
-    outline: none;
 }
 header .Content .opcion button:hover{
     background-color: #000;
+    outline: 2px solid #05f;
     color: #fff;
-    padding: 2px;
+    padding: 7px 15px;
+}
+header .Content .Buttom{
+    margin: 10px 5px;
+    padding: 5px 15px;
+    color: #fff;
+    background-color: #06a;
+    border: none;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    outline: none;
+    width: 380px;
+    position: relative;
+    left: 125px;
+    top: 15px;
+    box-shadow: 0 0 12px #004;
+    font-weight: 800;
+    transition: background-color .1s linear, color .1s linear;
+}
+header .Content .Buttom:hover{
+    background-color: #fff;
+    color: #000;
 }
