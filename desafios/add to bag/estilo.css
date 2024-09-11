@@ -84,4 +84,64 @@ header .Content span:nth-child(1){
     color: #05f;
     font-size: 1.2em;
     letter-spacing: 2px;
+    text-wrap: wrap;
+    font-weight: 500;
+}
+header .Content h1{
+    letter-spacing: 1.5px;
+    text-wrap: wrap;
+    text-shadow: 0 0 5px #aad;
+    color: #000;
+    font-size: 2.3em;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+header .Content h1 .Subtitle{
+    font-size: 0.7em;
+    color: #444;
+    margin-top: 3px;
+}
+header .Content h4{
+    font-size: 1.8em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 6px;
+    
+}
+header .Content h4 .subtitle{
+    font-size: 0.7em;
+    margin: 2px 2px;
+    color: #333;
+    text-decoration: line-through #000;
+}
+header .Content h3{
+    font-size: 1.4em;
+    margin-top: 20px;
+    padding: 2px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-shadow: 0 0 2px #fdf;
+    text-wrap: wrap;
+}
+header .Content .opcion {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 4px;
+}
+header .Content .opcion button {
+    font-size: 1.6em;
+    color: #000;
+    text-shadow: 0 0 2px #000;
+    transition: .1s linear;
+    cursor: pointer;
+    background-color: none;
+    border: none;
+    outline: none;
+}
+header .Content .opcion button:hover{
+    background-color: #000;
+    color: #fff;
+    padding: 2px;
 }
