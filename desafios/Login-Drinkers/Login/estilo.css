@@ -27,7 +27,7 @@ body{
 .Login .Content{
     height: 200px;
     padding: 5px;
-    margin-top: 15px;
+    margin-top: 2px;
     font-size: 14px;
 }
 .Login .Content img{
@@ -38,7 +38,7 @@ body{
     border-radius: 35px;
 }
 .Login .Content h1{
-    font-size: 2.2em;
+    font-size: 1.9em;
     letter-spacing: 1.5px;
     font-weight: 700;
     color: var(--fontColor);
@@ -113,4 +113,11 @@ body{
     cursor: pointer;
     transition: .1s linear;
     text-decoration: none;
+    text-transform: capitalize;
+}
+.Login .Link:hover{
+    background-color: var(--SecondaryColor);
+    padding: 6px 15px;
+    color: var(--PrimaryColor);
+    border: none;
 }
