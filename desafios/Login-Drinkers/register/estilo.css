@@ -18,11 +18,12 @@ body{
     display: flex;
     flex-flow: column wrap;
     margin: auto;
-    border: 1px solid #fff;
     padding: 10px;
     margin-top: 50px;
     text-align: center;
     font-size: 14px;
+    border-radius: 35px;
+    box-shadow: 0 0 15px var(--SecondaryColor);
 }
 .Content-register h1{
     margin-top: 15px;
@@ -52,7 +53,7 @@ body{
     font-size: 1.1em;
 }
 .Content-register .Form fieldset input{
-    margin: 10px;
+    margin: 8px;
     padding: 8px 15px;
     width: 250px;
     background-color: var(--PrimaryColor);
@@ -68,4 +69,54 @@ body{
     color: var(--SecondaryColor);
     font-weight: 600;
     text-transform: capitalize;
+}
+.Content-register .Buttoms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    margin-top: 5px;
+    padding: 5px;
+    gap: 10px;
+    font-size: 14px;
+}
+.Content-register .Buttoms button{
+    width: 200px;
+    padding: 8px 12px;
+    background-color: var(--PrimaryColor);
+    color: var(--SecondaryColor);
+    font-size: 0.9em;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    border: 1px solid var(--fontColor);
+    border-radius: 35px;
+    cursor: pointer;
+    transition: .1s linear;
+}
+.Content-register .Buttoms button:hover{
+    background-color: var(--SecondaryColor);
+    padding: 8px 20px;
+    color: var(--PrimaryColor);
+    border: none;
+}
+.Content-register .Buttoms a{
+    width: 200px;
+    padding: 8px 12px;
+    background-color: var(--PrimaryColor);
+    color: var(--SecondaryColor);
+    font-size: 0.9em;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    border: 1px solid var(--fontColor);
+    border-radius: 35px;
+    cursor: pointer;
+    transition: .1s linear;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.Content-register .Buttoms a:hover{
+    background-color: var(--SecondaryColor);
+    padding: 8px 20px;
+    color: var(--PrimaryColor);
+    border: none;
 }
