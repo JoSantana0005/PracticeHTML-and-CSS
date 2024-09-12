@@ -25,7 +25,47 @@ body{
     font-size: 14px;
 }
 .Content-register h1{
-    font-size: 2.2em;
+    margin-top: 15px;
+    font-size: 2.5em;
     letter-spacing:2px;
     color: var(--fontColor);
+}
+.Content-register h1 .subtitle{
+    font-size: 0.7em;
+}
+.Content-register .Form{
+    margin-top: 2px;
+    padding: 10px 15px;
+}
+.Content-register .Form fieldset{
+    padding: 10px 5px;
+    border-radius: 35px;
+    border: 1px solid var(--fontColor);
+}
+.Content-register .Form fieldset legend{
+    text-align: left;
+    padding: 5px;
+    border: 2px solid var(--fontColor);
+    font-weight: 500;
+    border-radius: 10px;
+    color: var(--SecondaryColor);
+    font-size: 1.1em;
+}
+.Content-register .Form fieldset input{
+    margin: 10px;
+    padding: 8px 15px;
+    width: 250px;
+    background-color: var(--PrimaryColor);
+    border: none;
+    outline: none;
+    border-right: 2px solid var(--fontColor);
+    border-bottom: 2px solid var(--fontColor);
+    border-radius: 25px;
+    color: var(--SecondaryColor);
+    font-size: 1em;
+}
+.Content-register .Form fieldset input::placeholder{
+    color: var(--SecondaryColor);
+    font-weight: 600;
+    text-transform: capitalize;
 }
