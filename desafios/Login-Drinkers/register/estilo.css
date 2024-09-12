@@ -1,0 +1,31 @@
+:root{
+    --PrimaryColor: #232326;
+    --fontColor: #CDA580;
+    --SecondaryColor: #F8F7F2;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--PrimaryColor);
+    font-family: sans-serif;
+}
+.Content-register{
+    width: 30%;
+    height: 500px;
+    display: flex;
+    flex-flow: column wrap;
+    margin: auto;
+    border: 1px solid #fff;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+.Content-register h1{
+    font-size: 2.2em;
+    letter-spacing:2px;
+    color: var(--fontColor);
+}
