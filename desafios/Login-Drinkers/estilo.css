@@ -1,0 +1,97 @@
+:root{
+    --PrimaryColor: #232326;
+    --fontColor: #CDA580;
+    --SecondaryColor: #F8F7F2;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--PrimaryColor);
+    font-family: sans-serif;
+}
+.Login{
+    width: 25%;
+    height: 400px;
+    border: 1px solid #fff;
+    display: flex;
+    margin: auto;
+    flex-flow: column wrap;
+    margin-top: 100px;
+    padding: 10px;
+    text-align: center;
+}
+.Login .Content{
+    height: 200px;
+    padding: 5px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.Login .Content img{
+    height: 65%;
+    margin-bottom: 10px;
+    outline: 2px solid var(--SecondaryColor);
+    outline-offset: 2px;
+    border-radius: 35px;
+}
+.Login .Content h1{
+    font-size: 2.2em;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    color: var(--fontColor);
+    text-transform: capitalize;
+}
+.Login .Form{
+    padding: 5px 15px;
+    margin: 0px 12px;
+    position: relative;
+    top: -12px;
+    left: 0;
+}
+.Login .Form input{
+    padding: 8px 15px;
+    margin: 3px;
+    border: none;
+    outline: none;
+    background-color: var(--PrimaryColor);
+    border-right: 1px solid var(--fontColor);
+    border-bottom: 1px solid var(--fontColor);
+    color: var(--SecondaryColor);
+    transition: .1s linear;
+}
+.Login .Form input::placeholder{
+    color: var(--SecondaryColor);
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.Login a{
+    text-align: left;
+    padding-left: 15px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 0.8em;
+    text-decoration: underline var(--fontColor);
+    color: var(--SecondaryColor);
+}
+.Login button{
+    width: 200px;
+    padding: 3px 12px;
+    margin-top: 10px;
+    background-color: var(--PrimaryColor);
+    color: var(--SecondaryColor);
+    font-size: 0.9em;
+    letter-spacing: 1.5px;
+    position: relative;
+    border: 1px solid var(--fontColor);
+    left: 60px;
+    cursor: pointer;
+    transition: .1s linear;
+}
+.Login button:hover{
+    background-color: var(--SecondaryColor);
+    padding: 6px 15px;
+    color: var(--PrimaryColor);
+    border: none;
+}
