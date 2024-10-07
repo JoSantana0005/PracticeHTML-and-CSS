@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    border: 1px solid #000;
+    width: 95%;
+    padding: 10px;
+    margin: auto;
+}
+main .Content{
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 5px;
+    position: relative;
+}
+main .Content .Imagen--product{
+    border: 1px solid #000;
+    width: 350px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .Content .Title--product{
+    border: 1px solid #000;
+    height: 125px;
+    width: 350px;
+    margin-top: 15px;
+    padding: 20px;
+    position: absolute;
+    left: 350px;
+    top: 11px;
+}
+main .Content .Info--product{
+    border: 1px solid #000;
+    padding: 10px;
+}
+main .Content .Info--product article:nth-child(1){
+    position: relative;
+    left: 380px;
+    margin-top: 15px;
+    top: -10px;
+    border: 1px solid #000;
+    width: 530px;
+    height: 125px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+main .Content .Info--product article .Time--product{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+main .Content .Info--product article .Time--product div span{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 3px;
+}
+main .Content .Info--product article .Level--product{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+main .Content .Info--product article .Level--product div span{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 3px;
+}
+main .Content .Info--product article .Badget--product{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+main .Content .Info--product article .Badget--product div span{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 3px;
+}
+main .Content .Info--product .description--product{
+    font-size: 1em;
+    font-weight: 600;
+    text-align: justify;
+    padding-left: 5px;
+}
+main .Content .Info--product .Ingredients--product{
+    padding-left: 10px;
+    font-size: 14px;
+}
+main .Content .Info--product .Ingredients--product h2{
+    font-size: 1.8em;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+main .Content .Info--product .Ingredients--product ul{
+    list-style: none;
+    padding: 0;
+}
+main .Content .Info--product .Ingredients--product ul li{
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+main .Content .Info--product .Intructions--product{
+    padding-left: 15px;
+    font-size: 14px;
+}
+main .Content .Info--product .Intructions--product ol{
+    padding: 0;
+    padding-left: 20px;
+}
+main .Content .Info--product .Intructions--product h2{
+    font-size: 1.8em;
+    letter-spacing: 1px;
+}
+main .Content .Info--product .Intructions--product ol li{
+    font-size: 1em;
+    letter-spacing: 1px;
+    padding: 1px;
+}
+
+
+
+
