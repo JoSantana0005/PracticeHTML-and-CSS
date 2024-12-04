@@ -1,0 +1,188 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+body{
+    background-color: #949fa7;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+main{
+    width: 65%;
+    height: 400px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 80px;
+    box-shadow: 2px 2px 10px #000;
+}
+main .Content{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    
+}
+main .Content .Formulario{
+    width: 450px;
+    position: relative;
+    padding: 10px 5px;
+}
+main .Content .Formulario .Title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    padding-right: 10px;
+    margin-bottom: 12px;
+}
+main .Content .Formulario .Title h1{
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+main .Content .Formulario .Title span{
+    font-size: 1em;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: text-decoration 0.5s, color 0.5s;
+}
+main .Content .Formulario .Title span:hover{
+    text-decoration: underline;
+    color: #949fa7;
+}
+main .Content .Formulario form{
+    height: 330px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 4px;
+}
+main .Content .Formulario form .Input--Container{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 2px;
+}
+main .Content .Formulario form .Input--Container label{
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #666;
+}
+main .Content .Formulario form .Input--Container input{
+    padding: 5px 2px;
+    border: none;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    font-size: 1em;
+    outline: none;
+    transition: .1s linear;
+}
+main .Content .Formulario form .Input--Container input:focus{
+    border-right: 2px solid #949fa7;
+    border-bottom: 2px solid #949fa7;
+}
+main .Content .Formulario form .Container--separator{
+    display: flex;
+    padding: 5px;
+    gap: 5px;
+    align-items: center;
+    margin-top: 5px;
+}
+main .Content .Formulario form .Container--separator div{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 5px;
+    justify-content: left;
+}
+main .Content .Formulario form .Container--separator label{
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #666;
+}
+main .Content .Formulario form .Container--separator input{
+    padding: 5px 2px;
+    border: none;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    font-size: 0.9em;
+    outline: none;
+    transition: .1s linear;
+}
+main .Content .Formulario form .Container--separator input:focus{
+    border-right: 2px solid #949fa7;
+    border-bottom: 2px solid #949fa7;
+}
+main .Content .Formulario form .Input--Container h3{
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+main .Content .Formulario form .Input--Container div{
+    border: 2px solid #ccc;
+    padding: 8px;
+    display: flex;
+    margin: 5px 0;
+    align-items: center;
+    gap: 15px;
+}
+main .Content .Formulario form .Input--Container div label{
+    font-size: 0.9em;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+main .Content .Formulario form button{
+    width: 250px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 7px 2px;
+    border: none;
+    outline: none;
+    background-color: #151d1d;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: .1s linear;
+}
+main .Content .Formulario form button:hover{
+    background-color: #ecef3f;
+    color: #151d1d;
+    box-shadow: 0 0 8px #000;
+}
+main .Resultado--hipoteca{
+    border: 1px solid #000;
+    padding: 10px;
+    background-color: #00440a;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5%;
+    text-align: center;
+    color: #fff;
+}
+main .Resultado--hipoteca .content--result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 35px 0;
+}
+main .Resultado--hipoteca .content--result div{
+    margin: 5px;
+    padding: 5px;
+}
+main .Resultado--hipoteca .content--result div h3{
+    font-size: 1.3em;
+}
+main .Resultado--hipoteca .content--result div p{
+    font-size: 1.2em;
+    color: #ccc;
+    text-align: justify;
+    text-wrap: pretty;
+}
+main .Resultado--hipoteca .content--result div img{
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+}
