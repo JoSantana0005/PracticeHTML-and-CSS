@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortgage Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="Content">
+            <div class="Formulario">
+                <div class="Title">
+                    <h2>Mortgage Calculator</h2>
+                    <span id="Borrar">Clear all</span>
+                </div>
+                <form>
+                    <div class="Input--Container">
+                        <label for="Monto">Mortgage Amount</label>
+                        <input type="number" id="Monto" placeholder="Enter the amount">
+                    </div>
+                    <div class="Input--Container Container--input">
+                        <div>
+                            <label for="years">Mortgage Term</label>
+                            <input type="number" id="years" placeholder="Years">
+                        </div>
+                        <div>
+                            <label for="Interest">Intrest Rate</label>
+                            <input type="number" id="Interest--rate" placeholder="Enter the rate">
+                        </div>
+                    </div>
+                    <div class="Input--Container">
+                        <label>Mortgage Type</label>
+                        <div>
+                            <input type="checkbox" id="Repayment">
+                            <label for="Repayment">Repayment</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Interest">
+                            <label for="Interest">Interest Only</label>
+                    </div>
+                    <div class="Buttons">
+                        <button type="submit">Calculate Repayment</button>
+                    </div>
+                </form>
+            </div>
+            <div class="Resultado_hipoteca">
+                <div class="Content--result">
+                    <div>
+                        <img src="" alt="Logo">
+                        <h3>Results shown here</h3>
+                    </div>
+                    <div>
+                        <p>Complete the form and click "calculate repayments" to see what
+                            your monthly repayments would be
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="app.js"></script>
+</html>
