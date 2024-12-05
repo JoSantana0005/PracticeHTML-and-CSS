@@ -155,18 +155,18 @@ main .Content .Formulario form button:hover{
 main .Resultado--hipoteca{
     border: 1px solid #000;
     padding: 10px;
+    width: 100%;
     background-color: #00440a;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5%;
-    text-align: center;
     color: #fff;
 }
 main .Resultado--hipoteca .content--result{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 35px 0;
+    margin: 15px 0;
 }
 main .Resultado--hipoteca .content--result div{
     margin: 5px;
@@ -185,4 +185,45 @@ main .Resultado--hipoteca .content--result div img{
     width: 120px;
     height: 120px;
     margin: 5px;
+}
+main .Resultado--hipoteca .content--result .results{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px 5px;
+}
+main .Resultado--hipoteca .content--result .results h2{
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #eee;
+}
+main .Resultado--hipoteca .content--result .results p{
+    font-size: 1.1em;
+    color: #ccc;
+    text-align: justify;
+    text-wrap: pretty;
+}
+main .Resultado--hipoteca .content--result .result{
+    border: 1px solid #000;
+    width: 95%;
+    height: 150px;
+    background-color: #151d1d;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+main .Resultado--hipoteca .content--result .result h2{
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #eee;
+    padding: 5px;
+}
+main .Resultado--hipoteca .content--result .result p{
+    font-size: 1.1em;
+    color: #ccc;
+    text-align: justify;
+    text-wrap: pretty;
+    padding: 5px;
 }
