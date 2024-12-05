@@ -1,9 +1,5 @@
 // evento para borrar el contenido de los inputs
 document.getElementById('Borrar').addEventListener('click',()=>{
-    
-    document.getElementById('Amount').value = '';
-    document.getElementById('Term').value = '';
-    document.getElementById('Interest--rate').value = '';
     document.getElementById('content--result').innerHTML = `<div>
                         <img src="../../query_stats_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="Logo">
                         <h3>Results shown here</h3>
@@ -13,6 +9,15 @@ document.getElementById('Borrar').addEventListener('click',()=>{
                             see what your monthyl repayments would be
                         </p>
                     </div>`
+    
+    if(document.getElementById('Amount').value != '' && document.getElementById('Term').value != '' && document.getElementById('Interest--rate').value != ''){
+        document.getElementById('Amount').value = '';
+        document.getElementById('Term').value = '';
+        document.getElementById('Interest--rate').value = '';
+    }else{
+        alert("nothing to delete");
+    }
+
     
     if(document.getElementById('Interest--only').checked && document.getElementById('Repayment').checked){
         document.getElementById('Interest--only').checked = false;
@@ -66,7 +71,7 @@ document.getElementsByTagName('button')[0].addEventListener('click',(event)=>{
 
     if(Repayment.checked){
         document.getElementById('content--result').innerHTML = '';
-        let Monthly = calculateMortgage(amount, term, interestRate);
+        let Monthly = calculateMortgage(amount,interestRate);
         let Total = calculateMortgageRepayment(amount, term, interestRate);
         document.getElementById('content--result').innerHTML = `<div class="results">
                         <h2>Your results</h2>
@@ -78,12 +83,12 @@ document.getElementsByTagName('button')[0].addEventListener('click',(event)=>{
                     <div class="result">
                         <div>
                             <h3>Monthly Repayment</h3>
-                            <p id="Monthly--repayment">${Monthly.toFixed(2)}</p>
+                            <p id="Monthly--repayment">${Monthly.toFixed(2)}$</p>
                         </div>
                         <hr>
                         <div>
                             <h3>Total Repayment</h3>
-                            <p id="Total--repayment">${Total.toFixed(2)}</p>
+                            <p id="Total--repayment">${Total.toFixed(2)}$</p>
                         </div>
                     </div>`;
     }else if(InterestOnly.checked){
@@ -99,8 +104,9 @@ document.getElementsByTagName('button')[0].addEventListener('click',(event)=>{
                     <div class="result">
                         <div>
                             <h3>Monthly Repayment</h3>
-                            <p id="Monthly--repayment">${result.toFixed(2)}</p>
+                            <p id="Monthly--repayment">${result.toFixed(2)}$</p>
                         </div>
+                        <hr>
                     </div>`;
     }
 })
