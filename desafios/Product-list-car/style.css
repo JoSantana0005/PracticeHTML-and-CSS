@@ -17,7 +17,7 @@ main{
     top: 15px;
 }
 main .Product--food{
-    border: 1px solid #000;
+    border-right: 2px solid #000;
     width: 50%;
     padding: 10px;
 }
@@ -28,7 +28,6 @@ main .Product--food h1{
 }
 main .Product--food article{
     width: 100%;
-    border: 1px solid #000;
     height: 95%;
 }
 main .Product--food article .Product{
@@ -36,11 +35,11 @@ main .Product--food article .Product{
     flex-flow: row wrap;
     width: 100%;
     height: 100%;
-    background-color: #bbb;
     gap: 2px;
     overflow-x: auto;
     overflow-y: auto;
     scroll-behavior: smooth;
+    border-top: 2px solid #000;
 }
 main .Product--food article .Product::-webkit-scrollbar{
     width: 5px;
@@ -110,4 +109,37 @@ main .Product--food article .Product .Description--product .details-product #cas
     letter-spacing: 1px;
     font-weight: 600;
     color: #f40;
-} 
+}
+main .Car-product{
+    border: 1px solid #000;
+    height: 230px;
+    width: 40%;
+    padding: 5px;
+    margin-top: 3px;
+    position: relative;
+    left: -60px;
+}
+main .Car-product .Your--product{
+    display: flex;
+    flex-direction: column;
+    height: 215px;
+}
+main .Car-product .Your--product h2{
+    font-size: 1.8em;
+    letter-spacing: 1px;
+    padding-left: 4px;
+}
+main .Car-product .Your--product h2 span{
+    font-size: 1.1em;
+    letter-spacing: 1px;
+}
+main .Car-product .Your--product div{
+    text-align: center;
+    width: 95%;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+main .Car-product .Your--product div p{
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
