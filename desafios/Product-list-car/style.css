@@ -93,7 +93,7 @@ main .Product--food article .Product .Description--product .details-product{
     background-color: #444;
 }
 main .Product--food article .Product .Description--product .details-product p{
-    font-size: 1.1em;
+    font-size: 0.7em;
     letter-spacing: 1px;
     font-weight: 500;
     color: #eee;

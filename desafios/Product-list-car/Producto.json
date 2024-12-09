@@ -3,61 +3,61 @@
         "Imagen": "https://www.unileverfoodsolutions.com.mx/dam/global-ufs/mcos/NOLA/calcmenu/recipes/MX-recipes/In-Development/FULL-WAFFLES.png",
         "Titulo": "Waffles",
         "Description": "Waffles with Berries",
-        "Price--product": 6.50
+        "Price__product": 6.50
     },
     
     {
        "Imagen": "https://www.unileverfoodsolutions.com.mx/dam/global-ufs/mcos/NOLA/calcmenu/recipes/MX-recipes/In-Development/FULL-WAFFLES.png",
         "Titulo": "Créme Brúlée",
         "Description": "Vanilla Bean Créme Brúlée",
-        "Price--product": 7.00 
+        "Price__product": 7.00 
     },
     
     {
         "Imagen": "https://www.unileverfoodsolutions.com.mx/dam/global-ufs/mcos/NOLA/calcmenu/recipes/MX-recipes/In-Development/FULL-WAFFLES.png",
         "Titulo": "Macaron",
         "Description": "Macaron Mix of Five",
-        "Price--product": 8.00
+        "Price__product": 8.00
     },
     
     {
         "Imagen": "https://www.unileverfoodsolutions.com.mx/dam/global-ufs/mcos/NOLA/calcmenu/recipes/MX-recipes/In-Development/FULL-WAFFLES.png",
         "Titulo": "Tiramisu",
         "Description": "Classic Tiramisu",
-        "Price--product": 5.50
+        "Price__product": 5.50
     },
     
     {
         "Imagen": "https://www.unileverfoodsolutions.com.mx/dam/global-ufs/mcos/NOLA/calcmenu/recipes/MX-recipes/In-Development/FULL-WAFFLES.png",
         "Titulo": "Baklava",
         "Description": "Pistachio Baklava",
-        "Price--product": 4.00
+        "Price__product": 4.00
     },
     
     {
         "Imagen": "https://www.unileverfoodsolutions.com.mx/dam/global-ufs/mcos/NOLA/calcmenu/recipes/MX-recipes/In-Development/FULL-WAFFLES.png",
         "Titulo": "Pie",
         "Description": "Lemon Meringue Pie",
-        "Price--product": 5.00
+        "Price__product": 5.00
     },
     
     {
         "Imagen": "https://www.unileverfoodsolutions.com.mx/dam/global-ufs/mcos/NOLA/calcmenu/recipes/MX-recipes/In-Development/FULL-WAFFLES.png",
         "Titulo": "Cake",
         "Description": "Red Velvet Cake",
-        "Price--product": 4.50
+        "Price__product": 4.50
     },
     
     {
         "Imagen": "https://www.unileverfoodsolutions.com.mx/dam/global-ufs/mcos/NOLA/calcmenu/recipes/MX-recipes/In-Development/FULL-WAFFLES.png",
         "Titulo": "Brownie",
         "Description": "Salted Caramel Brownie",
-        "Price--product": 5.50
+        "Price__product": 5.50
     },
     {
         "Imagen": "https://www.unileverfoodsolutions.com.mx/dam/global-ufs/mcos/NOLA/calcmenu/recipes/MX-recipes/In-Development/FULL-WAFFLES.png",
         "Titulo": "Panna Cotta",
         "Description": "Vanilla Panna Cotta",
-        "Price--product": 6.50
+        "Price__product": 6.50
     }
 ]
