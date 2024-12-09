@@ -1,12 +1,30 @@
-// funcion para aumentar los productos del carrito
+
 let cuenta_products = document.getElementById('Products');
+let cuenta = 0;
+let info;
+let add_product = document.getElementsByClassName('Add--car');
+let Alert__product = document.getElementById('Alert--product');
+
+// funcion para aumentar los productos del carrito
 function aumentarCarrito(cont){
     let result = `(${cont})`
     return result
 }
 
+// Funcion para colocar la informacion de los productos en el carrito
+function info__product(data){
+    try{
+        const info_product = ``
+        
+        return info_product
+    }catch(e){
+        console.log()
+    }
+}
+
 // Conexion al json
 const Json = fetch("./Producto.json").then(
+    
     respuesta =>{
         if(respuesta.ok){
             console.log("Se conecto exitosamente a la informacion del json")
@@ -15,6 +33,7 @@ const Json = fetch("./Producto.json").then(
             console.log("Hubon un problema en la conexion")
         }
     }
+
 ).then(
     
     data =>{
@@ -46,16 +65,19 @@ const Json = fetch("./Producto.json").then(
     
     // Evento para agregar al carrito
 
-    let cuenta = 0;
-    
-    let add_product = document.getElementsByClassName('Add--car');
     Array.from(add_product).forEach(element =>{
         element.addEventListener('click',()=>{
             cuenta++;
             let resultado = aumentarCarrito(cuenta)
             if(cuenta_products){
                 cuenta_products.textContent = resultado
-                
+                info = info__product(data)
+                if(Alert__product){
+                    Alert__product.innerHTML = info
+                }else{
+                    console.log("Hubo un error en la funcion")
+                }
+
             }else{
                 console.log("Hubo un error")
             }
