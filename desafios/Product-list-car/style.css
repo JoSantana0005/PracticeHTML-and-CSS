@@ -112,10 +112,12 @@ main .Product--food article .Product .Description--product .details-product #cas
 }
 main .Car-product{
     border: 1px solid #000;
-    height: 230px;
-    width: 40%;
+    height: 250px;
+    width: 35%;
     padding: 5px;
     margin-top: 3px;
+    position: relative;
+    left: 20px;
 }
 main .Car-product .Your--product{
     display: flex;
