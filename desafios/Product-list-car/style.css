@@ -51,10 +51,8 @@ main .Product--food article .Product::-webkit-scrollbar-thumb{
 }
 main .Product--food article .Product .Description--product{
     margin-top: 2px;
-    padding-left: 10px;
     width: 199px;
     text-align: center;
-    height: 255px;
 }
 main .Product--food article .Product .Description--product div{
     margin: 3px;
@@ -71,7 +69,7 @@ main .Product--food article .Product .Description--product div img:hover{
 main .Product--food article .Product .Description--product div .Add--car{
     display: flex;
     border: 1px solid #f40;
-    background-color: #eee;
+    background-color: #f40;
     justify-content: center;
     align-items: center;
     gap: 5px;
@@ -82,6 +80,18 @@ main .Product--food article .Product .Description--product div .Add--car{
 }
 main .Product--food article .Product .Description--product div .Add--car span{
     font-size: 1.1em;
+    color: #fff;
+}
+main .Product--food article .Product .Description--product div .Add--car .Conta--product{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+main .Product--food article .Product .Description--product div .Add--car .Conta--product span{
+    font-size: 1.2em;
+    color: #fff;
 }
 main .Product--food article .Product .Description--product .details-product{
     border: 1px solid #aaa;
@@ -111,7 +121,6 @@ main .Product--food article .Product .Description--product .details-product #cas
     color: #f40;
 }
 main .Car-product{
-    border: 1px solid #000;
     height: 250px;
     width: 35%;
     padding: 5px;
@@ -179,4 +188,21 @@ main .Car-product .Your--product div .Product--details .Delete--product svg:hove
     fill: #567;
     padding: 2px;
     cursor: pointer;
+}
+#Confirm--orden{
+    width: 220px;
+    padding: 8px 2px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #eee;
+    background-color: #e30;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: .1s linear;
+}
+#Confirm--orden:hover{
+    background-color: #000;
+    border: 2px solid #05f;
 }
