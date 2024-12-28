@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age-Calculator</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!--Main-->
+    <main>
+        <div class="Content--page">
+            <form>
+                <div class="Input--Container">
+                    <label for="Days">Days</label>
+                    <input type="text" id="Days" placeholder="DD" required>
+                </div>
+                <div class="Input--Container">
+                    <label for="Months">Month</label>
+                    <input type="text" id="Months" placeholder="MM" required>
+                </div>
+                <div class="Input--Container">
+                    <label for="Years">Years</label>
+                    <input type="text" id="Years" placeholder="YY" required>
+                </div>
+                <button type="button">Calculate Age</button>
+            </form>
+            <div class="Result--age">
+                <div>
+                    <span id="Results--years">--</span><span>Years</span>
+                </div>
+                <div>
+                    <span id="Results-month">--</span><span>Month</span>
+                </div>
+                <div>
+                    <span id="Results--days">--</span><span>Days</span>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
