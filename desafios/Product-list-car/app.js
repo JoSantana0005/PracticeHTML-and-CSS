@@ -1,7 +1,6 @@
 
 let cuenta_products = document.getElementById('Products');
 let cuenta = 0;
-let cont = 1;
 let add_product = document.getElementsByClassName('Add--car');
 let Alert__product = document.getElementById('Alert--product');
 let details = '';
@@ -54,8 +53,6 @@ const Json = fetch("./Producto.json").then(
         // Evento para agregar al carrito
         
         const addButtons = document.querySelectorAll('.Add--car');
-        let cuenta = 0;
-        let details = '';
 
         addButtons.forEach(button => {
             button.addEventListener('click', () => {
