@@ -148,9 +148,10 @@ main .Content--Container--1 .Content--left form .Content--Bottom span{
     font-weight: 500;
 }
 main .Content--Container--1 .Content--left form .Content--Bottom p{
-    font-size: 1.1em;
+    font-size: 1.3em;
     text-align: justify;
     padding-left: 5px;
+    width: 400px;
 }
 /*Segundo section*/
 main .Content--Container--2{
