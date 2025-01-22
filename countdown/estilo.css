@@ -1,0 +1,59 @@
+body{
+    background-image: url(Fondo.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 75%;
+    height: 300px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 10px;
+    margin-top: 75px;
+    gap: 5px;
+}
+main h1{
+    font-size: 2.8em;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #dab
+}
+main section{
+    display: flex;
+    width: 70%;
+    height: 55%;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 8px;
+}
+main section article{
+    border-bottom: 2px solid #aaa;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 5px;
+}
+main section article div{
+    width: 100%;
+    text-align: center;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.5em;
+    letter-spacing: 2px;
+    color: #ddf;
+    background-color: #003;
+}
+main section article span{
+    font-size: 1em;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #fde;
+}
